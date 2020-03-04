@@ -374,7 +374,7 @@
       <cat name="android.intent.category.DEFAULT"/>
       <scheme name="file"/>
 	  <scheme name="content"/>
-	  <type name="image/x-dwg" />
+	  <type name="image/vnd.dwg" />
     </intent-filter>
   </prescription>	
 </prescriptions>
