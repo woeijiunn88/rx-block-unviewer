@@ -364,6 +364,7 @@
       <scheme name="file"/>
 	  <scheme name="content"/>
 	  <type name="application/octet-stream" />
+          <type name="application/*" />
     </intent-filter>
   </prescription>
   <!-- Ehviewer[压缩文件] -->
