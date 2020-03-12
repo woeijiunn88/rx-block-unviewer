@@ -397,4 +397,14 @@
 	  <type name="application/octet-stream" />
     </intent-filter>
   </prescription>
+  <!-- 百度网盘[保存到网盘] -->
+  <prescription type="activity" package="com.baidu.netdisk.xiaomi.appunion" class="com.baidu.netdisk.ui.EnterShareFileActivity" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW"/>
+      <cat name="android.intent.category.DEFAULT"/>
+      <scheme name="file"/>
+	  <scheme name="content"/>
+	  <type name="*/*" />
+    </intent-filter>
+  </prescription>
 </prescriptions>
