@@ -407,4 +407,14 @@
 	  <type name="*/*" />
     </intent-filter>
   </prescription>
+  <!-- Alook[所有文件] -->
+  <prescription type="activity" package="alook.browser" class="alook.browser.FileIntentReceiverActivity" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW"/>
+      <cat name="android.intent.category.DEFAULT"/>
+      <scheme name="file"/>
+	  <scheme name="content"/>
+	  <type name="*/*" />
+    </intent-filter>
+  </prescription>
 </prescriptions>
