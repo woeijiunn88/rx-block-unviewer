@@ -446,7 +446,7 @@
 		</intent-filter>
 	</prescription>
 	<!--StickerApp[针对未知文件] -->
-	<!--若要打开stickerpack文件 可暂时关闭处方后打开 -->
+	<!--若要打开stickerpack文件 请用分享接口打开 -->
 	<prescription type="activity" package="com.kanelai.stickerapp" class="com.kanelai.stickerapp.activity.EntryActivity" sender="other">
 		<intent-filter>
 			<action name="android.intent.action.VIEW"/>
@@ -454,6 +454,16 @@
 			<scheme name="file"/>
 			<scheme name="content"/>
                         <type name="*/*"/>
+		</intent-filter>
+	</prescription>
+        <!-- Rboard Theme Manager[压缩文件] -->
+	<prescription type="activity" package="de.dertyp7214.rboardthememanager" class="de.dertyp7214.rboardthememanager.screens.ImportPack" sender="other">
+		<intent-filter>
+			<action name="android.intent.action.VIEW"/>
+			<cat name="android.intent.category.DEFAULT"/>
+			<scheme name="file"/>
+			<scheme name="content"/>
+			<type name="application/*"/>
 		</intent-filter>
 	</prescription>
 </prescriptions>
