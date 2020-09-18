@@ -467,7 +467,7 @@
 		</intent-filter>
 	</prescription>
         <!-- Dubox[Save to Dubox] -->
-	<prescription type="activity" package="com.dubox.drive" class="com.dubox.drive.ui.ReceiveShareFileActivity" sender="other">
+	<prescription type="activity" package="com.dubox.drive" class="com.dubox.drive.ui.EnterShareFileActivity" sender="other">
 		<intent-filter>
 			<action name="android.intent.action.VIEW"/>
 			<cat name="android.intent.category.DEFAULT"/>
@@ -478,6 +478,7 @@
 			<type name="audio/*"/>
 			<type name="application/*"/>
 			<type name="text/*"/>
+                        <type name="*/*"/>
 		</intent-filter>
 	</prescription>
 </prescriptions>
