@@ -467,7 +467,7 @@
 		</intent-filter>
 	</prescription>
         <!-- Dubox[Save to Dubox] -->
-	<prescription type="activity" package="com.dubox.drive" class="com.dubox.drive.ui.localfile.upload.UploadFileSelectActivity" sender="other">
+	<prescription type="activity" package="com.dubox.drive" class="com.dubox.drive.ui.ReceiveShareFileActivity" sender="other">
 		<intent-filter>
 			<action name="android.intent.action.VIEW"/>
 			<cat name="android.intent.category.DEFAULT"/>
